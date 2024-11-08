@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the model
-with open('D:\EXTRA DOWNLOADS\hackathon\juniors\model\.venv\mlp_model.pkl', 'rb') as f:
+with open('mlp_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Define the preprocessing function
